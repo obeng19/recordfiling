@@ -1,0 +1,188 @@
+html {
+    background:#363B4D;
+    *min-width: 960px;
+    margin-top: -50px;
+    margin-bottom: -500px;
+    padding-top:20px;
+}
+
+body {
+    background: none;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.zoom_repl {
+    transform: scale(0.955);
+    -moz-transform: scale(0.955);
+    -webkit-transform: scale(0.955);
+    _zoom: 1.0;
+}
+
+#invoice {
+    position: relative;
+    left: 0px;
+    opacity: 0.99;
+    width: 100%;
+    height: 1250px;
+    padding:45px 65px;
+    background: #fcffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    -webkit-box-shadow: -1px -1px 5px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+    overflow: hidden;
+}
+
+#header input {
+    width:100%;
+    margin:0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.company {
+    font-size: 25px;
+    font-weight: bold;
+    line-height:56px;
+    height:56px;
+    width:420px !important;
+    float: left;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    height:50px;
+    margin-bottom:0;
+    text-align: right;
+    text-transform: uppercase;
+    float: right;
+}
+
+input.rr {
+    text-align: right;
+}
+
+#address, #meta {
+    margin-top: 15px;
+}
+
+.client {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+thead th input, tfoot th input, tfoot th.td-row {background:rgba(0,0,0,0.1);}
+tbody tr:nth-child(even) input, tbody tr:nth-child(even) .td-row {background:rgba(0,0,0,0.05);}
+
+#total input, #total .td-row {
+    background: rgba(0,0,0,0.2);
+}
+
+table input {
+    margin:0 !important;
+}
+
+table td, table th {
+    height: 35px !important;
+    padding-right: 10px;
+}
+
+tfoot tr th {
+    border-top: 1px solid #aaa;
+}
+
+th input {
+    font-weight: bold;
+}
+
+td, thead th {
+    border-right: 1px solid #aaa;
+}
+
+td:nth-child(4), td:nth-child(5), th:nth-child(4), th:nth-child(5) {
+    border-right: 0;
+}
+
+td:last-child, th:last-child {
+    border-left: 1px solid #aaa;
+}
+
+table {
+    border: 1px solid #aaa;
+}
+
+table {
+    font-size: 90% !important;
+    font-family: "Courier New", Courier, monospace;
+}
+
+tfoot {
+    font-style:normal;
+}
+
+tbody td:last-child {
+    font-weight: bold;
+}
+
+.td-row {
+    text-indent: 10px;
+}
+
+input {
+    overflow: hidden;
+}
+
+
+#invoice {
+    vertical-align: top;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+
+thead {
+    background: #363B4D;
+    color: #fff;
+}
+tfoot th {
+    text-align: right;
+}
+
+table.no-border {
+    border: none !important;
+}
+table.no-border table {
+    margin-bottom: 0;
+}
+.no-border td  {
+    border: none !important;
+    padding: 0 10px !important;
+}
+.text-bold {
+    font-weight: bold;
+}
+.text-center {
+    text-align: center;
+}
+.text-normal {
+    font-weight: normal !important;
+}
+td.to {
+    padding-top: 10px !important;
+}
+td.from {
+    padding-left: 0!important;
+}
+td.v-top {
+    vertical-align: top;
+}
+thead th.td-row { border: none; }
+td.header {
+    background: #363B4D;
+    color: #fff;
+}
+
