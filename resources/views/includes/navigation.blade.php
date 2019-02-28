@@ -46,7 +46,6 @@
                     </ul>
                 </li>
             @endcan
-    {{--hi--}}
         @can('view-user-profile')
             <li {!! $route == 'profile.edit'? 'class="active"' : '' !!}>
                 <a href="{{route('profile.edit',['id'=>$_user->id])}}"><span class="fa fa-user"></span> <span class="xn-text">Profile</span></a>
